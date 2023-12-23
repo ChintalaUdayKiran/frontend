@@ -1,0 +1,28 @@
+<form (ngSubmit)="signUp()" class="signup-form">
+  <div class="form-group">
+    <label for="username">Username:</label>
+    <input type="text" id="username" name="username" [(ngModel)]="newUser.username" required>
+  </div>
+
+  <div class="form-group">
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" [(ngModel)]="newUser.email" required>
+  </div>
+
+  <div class="form-group">
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" [(ngModel)]="newUser.password" required>
+  </div>
+
+  <div class="form-group">
+    <label for="memberId">Member ID:</label>
+    <input type="text" id="memberId" name="memberId" [(ngModel)]="newUser.memberId">
+  </div>
+
+  <div class="form-group">
+    <label for="dateOfBirth">Date of Birth:</label>
+    <input type="date" id="dateOfBirth" name="dateOfBirth" [(ngModel)]="newUser.dateOfBirth">
+  </div>
+
+  <button type="submit">Sign Up</button>
+</form>

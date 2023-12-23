@@ -1,0 +1,47 @@
+/* Container for the entire component */
+.container {
+  max-width: 800px; /* Set maximum width */
+  margin: 0 auto; /* Center align within the page */
+  font-family: Arial, sans-serif; /* Set font-family */
+  background-color: #f4f4f4; /* Background color */
+  padding: 20px; /* Add padding */
+}
+
+/* Navigation bar styles */
+.navbar {
+  background-color: #333;
+  padding: 10px;
+  text-align: right; /* Align navigation items to the right */
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar ul li {
+  display: inline;
+  margin-left: 20px; /* Add spacing between list items */
+}
+
+.navbar ul li:first-child {
+  margin-left: 0; /* Remove margin for the first item */
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  transition: color 0.3s ease; /* Add smooth transition on hover */
+}
+
+.navbar ul li a:hover {
+  color: #ffcc00;
+}
+
+/* Heading for the login form */
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
